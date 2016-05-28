@@ -5,7 +5,6 @@ class QuotesController < ApplicationController
 
   def create
     @quote = QuoteRequest.new(quote_params)
-
     respond_to do |format|
       if @quote.save
         format.html { redirect_to '/', notice: 'Quote was successfully requested.' }
