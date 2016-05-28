@@ -4,7 +4,7 @@
   <li> <%= t('menu.photos') %> </li>
   <li> <%= t('menu.track_shipment') %> </li>
   <li> <%= link_to t('menu.get_a_quote'), new_quote_path %> </li>
-  <li> <%= t('menu.become_a_driver') %> </li>
+  <li> <%=link_to t('menu.become_a_driver'), new_new_driver_path %> </li>
   <% if admin_signed_in? %>
     <li><%= link_to "Admin Panel", rails_admin_path %></li>
     <li><%= link_to "Logout", destroy_admin_session_path, :method => :delete %></li>
