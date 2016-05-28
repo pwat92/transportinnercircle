@@ -1,0 +1,24 @@
+<h1>NewDriver#new</h1>
+<p>Find me in app/views/new_driver/new.html.erb</p>
+
+<%= form_for @new_driver, url: {action: "create"}, html: {class: "form"} do |f| %>
+
+  <%= f.label :name, t('Name: ') %>
+  <%= f.text_field :name %>
+
+  <%= f.label :email, t('Email: ') %>
+  <%= f.text_field :email %>
+
+  <%= f.label :phone_number, t('Phone number: ') %>
+  <%= f.text_field :phone_number %>
+
+    <%= f.label :linkedin, t('LinkedIn: ') %>
+  <%= f.text_field :linkedin %>
+
+    <%= f.label :cv, t('CV: ') %>
+  <%= f.text_field :cv %>
+
+  <%# TODO BEFORE DELIVERY: translate submit button%>
+  <%= f.submit 'submit application' %>
+  WARNING: this cannot be edited once you submit it
+<% end %>
