@@ -1,10 +1,10 @@
-<ul>
-  <li>About us</li>
-  <li>Documents</li>
-  <li>photos</li>
-  <li>Track Shipment</li>
-  <li>Get a quote</li>
-  <li>Become a Driver</li>
+<ul id="menu">
+  <li> <%= t('menu.about_us') %> </li>
+  <li> <%= t('menu.documents') %> </li>
+  <li> <%= t('menu.photos') %> </li>
+  <li> <%= t('menu.track_shipment') %> </li>
+  <li> <%= t('menu.get_a_quote') %> </li>
+  <li> <%= t('menu.become_a_driver') %> </li>
   <% if admin_signed_in? %>
     <li><%= link_to "Admin Panel", rails_admin_path %></li>
     <li><%= link_to "Logout", destroy_admin_session_path, :method => :delete %></li>

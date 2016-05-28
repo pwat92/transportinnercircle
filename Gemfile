@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'rails_admin', '~> 0.8.1'
+gem 'rails-i18n', '~> 4.0.0'
 
 group :development, :test do
   gem 'sqlite3'
