@@ -3,7 +3,7 @@
   <li> <%= t('menu.documents') %> </li>
   <li> <%= t('menu.photos') %> </li>
   <li> <%= t('menu.track_shipment') %> </li>
-  <li> <%= t('menu.get_a_quote') %> </li>
+  <li> <%= link_to t('menu.get_a_quote'), new_quote_path %> </li>
   <li> <%= t('menu.become_a_driver') %> </li>
   <% if admin_signed_in? %>
     <li><%= link_to "Admin Panel", rails_admin_path %></li>
