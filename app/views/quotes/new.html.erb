@@ -1,2 +1,10 @@
-<h1>Quotes#new</h1>
-<p>Find me in app/views/quotes/new.html.erb</p>
+<%= form_for @quote, url: {action: "create"}, html: {class: "form"} do |f| %>
+  <%= f.label :name, t('Name: ') %>
+  <%= f.text_field :name %>
+  <%= f.label :email, t('Email: ') %>
+  <%= f.text_field :email %>
+  <%= f.label :message, t('message: ') %>
+  <%= f.text_area :message %>
+  <%# TODO BEFORE DELIVERY: translate submit button%>
+  <%= f.submit 'request a quote' %>
+<% end %>
