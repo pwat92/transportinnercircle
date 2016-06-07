@@ -1,8 +1,8 @@
 <ul id="menu">
-  <li> <%= t('menu.about_us') %> </li>
-  <li> <%= t('menu.documents') %> </li>
-  <li> <%= t('menu.photos') %> </li>
-  <li> <%= t('menu.track_shipment') %> </li>
+  <li> <%= link_to t('menu.about_us'), about_us_path %> </li>
+  <li> <%= link_to t('menu.documents'), documents_path %> </li>
+  <li> <%= link_to t('menu.photos'), photos_path %> </li>
+  <li> <%= link_to t('menu.track_shipment'), track_shipment_path %> </li>
   <li> <%= link_to t('menu.get_a_quote'), new_quote_path %> </li>
   <li> <%=link_to t('menu.become_a_driver'), new_new_driver_path %> </li>
   <% if admin_signed_in? %>
