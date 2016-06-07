@@ -1,0 +1,24 @@
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #22272d;
+
+  li {
+    float: left;
+
+    a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    }
+
+    a:hover {
+    background-color: #f8c21f;
+    color: #22272d;
+    }
+  }
+}
