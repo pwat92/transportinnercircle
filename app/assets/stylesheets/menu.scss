@@ -5,10 +5,7 @@
   overflow: hidden;
   background-color: #22272d;
 
-  li {
-    float: left;
-
-    a {
+  a {
     display: block;
     color: white;
     text-align: center;
@@ -20,5 +17,19 @@
     background-color: #f8c21f;
     color: #22272d;
     }
+
+  .left {
+    float: left;
   }
+
+  .right {
+    float: right;
+  }
+}
+
+#footer {
+  list-style-type: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
