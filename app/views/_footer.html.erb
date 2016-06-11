@@ -1,8 +1,31 @@
-<ul id="footer">
-  <% if admin_signed_in? %>
-    <li><%= link_to "Admin Panel", rails_admin_path %></li>
-    <li><%= link_to "Logout", destroy_admin_session_path, :method => :delete %></li>
-  <% else %>
-    <li><%= link_to "Login", admin_session_path %></li>
-  <% end %>
-</ul>
+<div id="footer-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <ul class="footer">
+          <% if admin_signed_in? %>
+            <li><%= link_to "Admin Panel", rails_admin_path %></li>
+            <li><%= link_to "Logout", destroy_admin_session_path, :method => :delete %></li>
+          <% else %>
+            <li><%= link_to "Login", admin_session_path %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="col-xs-4">
+        <ul class="footer">
+          <li class="left"> <%= link_to t('menu.home'), root_path %> </li>
+          <li class="left"> <%= link_to t('menu.about_us'), about_us_path %> </li>
+          <li class="left"> <%= link_to t('menu.documents'), documents_path %> </li>
+          <li class="left"> <%= link_to t('menu.photos'), photos_path %> </li>
+        </ul>
+      </div>
+      <div class="col-xs-4">
+        <ul class="footer">
+          <li class="left"> <%= link_to t('menu.track_shipment'), track_shipment_path %> </li>
+          <li class="right"> <%= link_to t('menu.get_a_quote'), new_quote_path %> </li>
+          <li class="right"> <%=link_to t('menu.become_a_driver'), new_new_driver_path %> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

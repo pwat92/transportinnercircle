@@ -14,8 +14,8 @@
     }
 
     a:hover {
-    background-color: #f8c21f;
-    color: #22272d;
+      background-color: #f8c21f;
+      color: #22272d;
     }
 
   .left {
@@ -27,9 +27,26 @@
   }
 }
 
-#footer {
-  list-style-type: none;
-  position: fixed;
-  bottom: 0;
+#footer-container{
   width: 100%;
+  padding-top: 50px;
+  margin-top: 60px;
+  background-color: #22272d;
+
+  .footer {
+    list-style-type: none;
+    position: static;
+    bottom: 0;
+    width: 100%;
+
+    li{
+      padding: 5px;
+    }
+    
+
+    a{
+      color: white;
+    }
+}
+
 }
