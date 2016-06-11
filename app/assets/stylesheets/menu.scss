@@ -14,8 +14,13 @@
     }
 
     a:hover {
-    background-color: #f8c21f;
-    color: #22272d;
+      background-color: #f8c21f;
+      color: #22272d;
+    }
+
+    li:active a {
+      background-color: #f8c21f;
+      color: #22272d;
     }
 
   .left {
@@ -27,9 +32,11 @@
   }
 }
 
-#footer {
+.footer {
+  display: block;
+  padding-top: 25px;
   list-style-type: none;
-  position: fixed;
+  position: static;
   bottom: 0;
   width: 100%;
 }
