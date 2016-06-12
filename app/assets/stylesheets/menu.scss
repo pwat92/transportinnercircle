@@ -3,19 +3,19 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #22272d;
+  background-color: #f8c21f;
 
   a {
     display: block;
-    color: white;
+    color: #22272d;
     text-align: center;
     padding: 30px 16px;
     text-decoration: none;
     }
 
     a:hover {
-      background-color: #f8c21f;
-      color: #22272d;
+      background-color: #22272d;
+      color: white;
     }
 
   .left {
@@ -32,21 +32,18 @@
   padding-top: 50px;
   margin-top: 60px;
   background-color: #22272d;
+  position: relative;
 
   .footer {
     list-style-type: none;
-    position: static;
-    bottom: 0;
     width: 100%;
 
     li{
       padding: 5px;
     }
-    
 
     a{
       color: white;
     }
-}
-
+  }
 }
