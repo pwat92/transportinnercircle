@@ -10,6 +10,7 @@ class StaticPagesController < ApplicationController
   end
 
   def photos
+    @number_of_photos = 11
   end
 
   def documents

@@ -1,0 +1,11 @@
+h1.photo-header{
+  text-align: center;
+}
+.owl-carousel{
+  padding-top: 50px;
+  .item{
+    img{
+      max-height: 500px;
+    }
+  }
+}
