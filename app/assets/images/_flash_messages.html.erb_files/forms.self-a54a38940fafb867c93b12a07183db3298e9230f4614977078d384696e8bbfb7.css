@@ -1,0 +1,59 @@
+/* line 2, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+/* line 10, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form input:focus {
+  outline: none;
+  border: 2px solid #f8c21f;
+}
+/* line 15, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form input[type=text] {
+  border: 2px solid #22272d;
+}
+/* line 19, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form input[type=text]:focus {
+  border: 2px solid #f8c21f;
+}
+/* line 23, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form input[type=submit] {
+  outline: none;
+  border: 2px solid #22272d;
+  background-color: #22272d;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+/* line 32, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form input[type=submit]:hover {
+  outline: none;
+  border: 2px solid #f8c21f;
+  background-color: #f8c21f;
+  color: #22272d;
+}
+/* line 39, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form textarea {
+  width: 100%;
+  height: 150px;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #22272d;
+  resize: none;
+}
+/* line 51, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+form textarea:focus {
+  border: 2px solid #f8c21f;
+}
+
+/* line 56, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/forms.scss */
+.header {
+  margin-bottom: 25px;
+  text-align: center;
+}

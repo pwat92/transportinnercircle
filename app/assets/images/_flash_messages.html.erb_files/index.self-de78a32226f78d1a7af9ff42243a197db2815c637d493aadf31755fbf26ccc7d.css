@@ -1,0 +1,91 @@
+/* line 1, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.hero-img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+}
+/* line 11, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  overflow: hidden;
+  filter: brightness(40%);
+}
+
+/* line 20, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.slogan {
+  padding-top: 13%;
+}
+/* line 23, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.slogan h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  width: 100%;
+}
+/* line 31, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.slogan h2 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  width: 100%;
+}
+
+/* line 40, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.call-to-action {
+  padding-top: 2%;
+}
+/* line 43, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.call-to-action button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+/* line 50, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.call-to-action .cta1 {
+  border-color: #f8c21f;
+  background-color: #f8c21f;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+/* line 59, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.call-to-action .cta1:hover {
+  background-color: transparent;
+  font-weight: bold;
+  color: #f8c21f;
+  font-size: 30px;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+/* line 67, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.call-to-action .cta2 {
+  border-color: #f8c21f;
+  background-color: transparent;
+  font-weight: bold;
+  color: #f8c21f;
+  font-size: 30px;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+/* line 76, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.call-to-action .cta2:hover {
+  background-color: #f8c21f;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+/* line 85, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/index.scss */
+.value-props {
+  margin-top: 15%;
+}

@@ -1,0 +1,51 @@
+/* line 1, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8c21f;
+}
+/* line 8, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#menu a {
+  display: block;
+  color: #22272d;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+/* line 16, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#menu a:hover {
+  background-color: #22272d;
+  color: white;
+}
+/* line 21, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#menu .left {
+  float: left;
+}
+/* line 25, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#menu .right {
+  float: right;
+}
+
+/* line 30, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#footer-container {
+  width: 100%;
+  padding-top: 50px;
+  margin-top: 60px;
+  background-color: #22272d;
+  position: relative;
+}
+/* line 37, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#footer-container .footer {
+  list-style-type: none;
+  width: 100%;
+}
+/* line 41, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#footer-container .footer li {
+  padding: 5px;
+}
+/* line 45, /Users/macbook/Projects/transportinnercircle/transportinnercircle/app/assets/stylesheets/menu.scss */
+#footer-container .footer a {
+  color: white;
+}
