@@ -7,27 +7,33 @@ form{
     box-sizing: border-box;
   }
 
+  input:focus{
+    outline: none;
+    border: 2px solid #f8c21f;
+  }
+
   input[type=text] {
     border: 2px solid #22272d;
   }
 
   input[type=text]:focus {
-    outline: none;
     border: 2px solid #f8c21f;
   }
 
   input[type=submit] {
     outline: none;
-    border: 2px solid #f8c21f;
-    background-color: #f8c21f;
+    border: 2px solid #22272d;
+    background-color: #22272d;
     font-weight: bold;
     font-size: 18px;
+    color: white;
   }
 
   input[type=submit]:hover {
     outline: none;
-    border: 2px solid #c39200;
-    background-color: #c39200;
+    border: 2px solid #f8c21f;
+    background-color: #f8c21f;
+    color: #22272d;
   }
 
   textarea{
