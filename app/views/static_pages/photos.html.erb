@@ -1,30 +1,30 @@
-<script type="text/javascript">
-  $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
-      singleItem : true,
-      autoHeight : true,
-      autoPlay : 3000,
-      stopOnHover : true,
-      navigation:true,
-    });
-  });
-</script>
+<!-- // <script type="text/javascript">
+   $(document).ready(function(){
+     $(".owl-carousel").owlCarousel({
+       singleItem : true,
+       autoHeight : true,
+       autoPlay : 3000,
+       stopOnHover : true,
+       navigation:true,
+     });
+   });
+ </script>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-offset-4 col-sm-4">
-      <h1 class="photo-header">Photos</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-offset-3 col-sm-6">
-      <div class="owl-carousel">
-        <% (1..@number_of_photos).each do |i| %>
-          <div class="item">
-            <%= image_tag("tic#{i}.jpeg") %>
-          </div>
-        <% end %>
-      </div>
-    </div>
-  </div>
-</div>
+ <div class="container-fluid">
+   <div class="row">
+     <div class="col-sm-offset-4 col-sm-4">
+       <h1 class="photo-header">Photos</h1>
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-sm-offset-3 col-sm-6">
+       <div class="owl-carousel">
+         <% (1..@number_of_photos).each do |i| %>
+           <div class="item">
+             <%= image_tag("tic#{i}.jpeg") %>
+           </div>
+         <% end %>
+       </div>
+     </div>
+   </div>
+</div> -->
