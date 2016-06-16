@@ -1,32 +1,3 @@
-#menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f8c21f;
-
-  a {
-    display: block;
-    color: #22272d;
-    text-align: center;
-    padding: 30px 16px;
-    text-decoration: none;
-    }
-
-    a:hover {
-      background-color: #22272d;
-      color: white;
-    }
-
-  .left {
-    float: left;
-  }
-
-  .right {
-    float: right;
-  }
-}
-
 #footer-container{
   width: 100%;
   padding-top: 50px;
@@ -44,6 +15,21 @@
 
     a{
       color: white;
+    }
+  }
+}
+
+// bootstrap nav styles
+nav {
+  ul{
+    li{
+      a{
+        color: white !important;
+      }
+      a:hover {
+        background-color: #f8c21f !important;
+        color: black !important;
+      }
     }
   }
 }

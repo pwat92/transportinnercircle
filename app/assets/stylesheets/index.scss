@@ -81,7 +81,22 @@
     text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
   }
 }
+/* large desktops and up ----------- */
+@media screen and (max-width: 1300px) {
+  .value-props{
+    margin-top: 20%;
+  }
+}
 
-.value-props{
-  margin-top: 15%;
+@media screen and (min-width: 1301px) {
+  .value-props{
+    margin-top: 40%;
+  }
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1299px) {
+  .value-props{
+    margin-top: 30%;
+  }
 }
