@@ -1,9 +1,11 @@
-menu:
-  about_us: 'À propos de nous'
-  documents: 'Documents'
-  photos: 'Photos'
-  track_shipment: 'Suivi de livraison'
-  get_a_quote: 'Obtenez une estimation'
-  become_a_driver: 'Devenir un pilote'
-quote:
-  request_a_quote: 'Get a Quote'
+fr:
+  menu:
+    about_us: 'À propos de nous'
+    documents: 'Documents'
+    photos: 'Photos'
+    track_shipment: 'Suivi de livraison'
+    get_a_quote: 'Obtenez une estimation'
+    become_a_driver: 'Devenir un pilote'
+    change_language: 'EN'
+  quote:
+    request_a_quote: 'Get a Quote'

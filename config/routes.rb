@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   get '/photos', to: 'static_pages#photos'
   get '/documents', to: 'static_pages#documents'
   get '/about_us', to: 'static_pages#about_us'
+
+  get '/change_locale/:locale', to: 'settings#change_locale' , as: :change_locale
 end
