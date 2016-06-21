@@ -9,10 +9,12 @@
   </head>
   <body>
     <%= render "shared/menu" %>
-
-    <%= render "shared/flash_messages", flash: flash %> 
-
-    <%= yield %>
+    
+    <div class="main-body">
+      <%= render "shared/flash_messages", flash: flash %> 
+      <%= yield %>
+    </div>
+    
     <%= render "shared/footer" %>
   </body>
 </html>
