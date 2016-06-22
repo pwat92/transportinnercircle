@@ -1,2 +1,19 @@
-Shipment tracking page
-<%= @tracking_link %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-4">
+      <h1><span class="yellow">Transport Inner Circle</span> <%= t('track.heading') %></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-offset-2 col-md-4">
+      <ol class="steps">
+        <h3><li><%= t('track.step1') %></li></h3>
+        <h3><li><%= t('track.step2') %></li></h3>
+        <h3><li><%= t('track.step3') %></li></h3>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <%= button_to t('track.track_shipment'), @tracking_link %>
+    </div>
+  </div>
+</div>

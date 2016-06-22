@@ -6,7 +6,7 @@ class StaticPagesController < ApplicationController
   end
 
   def track_shipment
-    @tracking_link = " https://uplinkgps.com"
+    @tracking_link = "https://uplinkgps.com/user/sign_in.html"
   end
 
   def photos

@@ -36,3 +36,8 @@ fr:
   photos:
   documents:
   track:
+    track_shipment: 'Suivi de Livraison!'
+    heading: 'Vous permet maintenant de suivi votre Livraison!'
+    step1: 'Cliquez sur le bouton pour suivir de Livraison'
+    step2: "Entrez le nom d'utilisateur et mot de passe"
+    step3: 'Login et voila'
