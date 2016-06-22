@@ -21,14 +21,15 @@
 
 // bootstrap nav styles
 nav {
+  background-color: #f8c21f !important;
   ul{
     li{
       a{
-        color: white !important;
+        color: #22272d !important;
       }
       a:hover {
-        background-color: #f8c21f !important;
-        color: black !important;
+        background-color: #22272d !important;
+        color: white !important;
       }
     }
   }
