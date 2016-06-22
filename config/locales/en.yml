@@ -14,8 +14,6 @@
 #
 #     I18n.locale = :es
 en:
-  quote:
-    request_a_quote: 'Get a Quote'
   menu:
     about_us: 'About us'
     documents: 'Document'
@@ -24,3 +22,32 @@ en:
     get_a_quote: 'Get a Quote'
     become_a_driver: 'Become a driver'
     change_language: 'FR'
+  quote:
+    request_a_quote: 'Request a Quote!'
+    name: 'Name:'
+    email: 'Email:'
+    message: 'Message:'
+    submit: 'Request a Quote!'
+    disclaimer: 'WARNING: this cannot be edited once you submit it'
+  index:
+    heading: 'Delivered on time!'
+    cta1: 'Get a Quote'
+    cta2: 'Become a Driver'
+    value1: ''
+    value2: ''
+    value3: ''
+  about_us:
+    about_us: 'About Us'
+    col1: ''
+    col2: ''
+    col3: ''
+  new_driver:
+    new_driver: "We're Hiring Drivers"
+    name: 'Name:'
+    email: 'Email:'
+    phone_number: 'Phone Number:'
+    submit: 'Submit Application'
+    disclaimer: 'WARNING: this cannot be edited once you submit it'
+  photos:
+  documents:
+  track:

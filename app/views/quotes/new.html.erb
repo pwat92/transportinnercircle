@@ -1,22 +1,23 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
-      <h1 class="header">Request a quote!</h1>
+      <h1 class="header"><%= t('quote.request_a_quote') %></h1>
     </div>
   </div>
 
   <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
       <%= form_for @quote, url: {action: "create"}, html: {class: "form"} do |f| %>
-        <%= f.label :name, t('Name: ') %>
+        <%= f.label :name, t('quote.name') %>
         <%= f.text_field :name %>
-        <%= f.label :email, t('Email: ') %>
+        <%= f.label :email, t('quote.email') %>
         <%= f.text_field :email %>
-        <%= f.label :message, t('message: ') %>
+        <%= f.label :message, t('quote.message') %>
         <%= f.text_area :message %>
         <%# TODO BEFORE DELIVERY: translate submit button%>
-        <%= f.submit 'request a quote' %>
+        <%= f.submit t('quote.submit') %>
       <% end %>
+      <%= t('quote.disclaimer') %>
     </div>
   </div>
 </div>

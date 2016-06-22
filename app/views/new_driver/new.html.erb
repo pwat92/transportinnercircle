@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
-      <h1 class="header">Apply to be a driver</h1>
+      <h1 class="header"><%= t('new_driver.new_driver') %></h1>
     </div>
   </div>
 
@@ -9,24 +9,17 @@
     <div class="col-sm-offset-3 col-sm-6">
       <%= form_for @new_driver, url: {action: "create"}, html: {class: "form"} do |f| %>
 
-        <%= f.label :name, t('Name: ') %>
+        <%= f.label :name, t('new_driver.name') %>
         <%= f.text_field :name %>
         <br />
-        <%= f.label :email, t('Email: ') %>
+        <%= f.label :email, t('new_driver.email') %>
         <%= f.text_field :email %>
         <br />
-        <%= f.label :phone_number, t('Phone number: ') %>
+        <%= f.label :phone_number, t('new_driver.phone_number') %>
         <%= f.text_field :phone_number %>
-        <br />
-        <%= f.label :linkedin, t('LinkedIn: ') %>
-        <%= f.text_field :linkedin %>
-        <br />
-        <%= f.label :cv, t('CV: ') %>
-        <%= f.text_field :cv %>
-        <br />
         <%# TODO BEFORE DELIVERY: translate submit button%>
-        <%= f.submit 'submit application' %>
-        WARNING: this cannot be edited once you submit it
+        <%= f.submit t('new_driver.submit') %>
+        <%= t('new_driver.disclaimer') %>
       <% end %>
     </div>
   </div>
