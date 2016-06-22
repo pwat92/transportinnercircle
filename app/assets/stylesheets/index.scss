@@ -47,7 +47,7 @@
     border-width: 3px;
   }
 
-  .cta1{
+  .cta1_en{
     border-color: #f8c21f;
     background-color: #f8c21f;
     font-weight: bold;
@@ -56,11 +56,32 @@
     text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
   }
 
-  .cta1:hover{
+  .cta1_en:hover{
     background-color: transparent;
     font-weight: bold;
     color: #f8c21f;
     font-size: 30px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  }
+
+  .cta1_fr{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-color: #f8c21f;
+    background-color: #f8c21f;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+  }
+
+  .cta1_fr:hover{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: transparent;
+    font-weight: bold;
+    color: #f8c21f;
+    font-size: 20px;
     text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
   }
 

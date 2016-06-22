@@ -8,4 +8,31 @@ fr:
     become_a_driver: 'Devenir un pilote'
     change_language: 'EN'
   quote:
-    request_a_quote: 'Get a Quote'
+    request_a_quote: 'Obtenez une estimation'
+    name: 'Nom:'
+    email: 'Courriel:'
+    message: 'Message:'
+    submit: 'Obtenez une estimation!'
+    disclaimer: 'AVERTISSEMENT: cela ne peut pas être modifié après son envoi'
+  index:
+    heading: 'Livrée à Temps'
+    cta1: 'Obtenez une estimation'
+    cta2: 'Devenir un Pilote'
+    value1: ''
+    value2: ''
+    value3: ''
+  about_us:
+    about_us: 'À propos de nous'
+    col1: ''
+    col2: ''
+    col3: ''
+  new_driver:
+    new_driver: 'Nous Recrutons de Nouveaux Pilotes'
+    name: 'Nom:'
+    email: 'Courriel:'
+    phone_number: 'Numero do Telephone:'
+    submit: "Envoyer la Demande d'Emploi"
+    disclaimer: 'AVERTISSEMENT: cela ne peut pas être modifié après son envoi'
+  photos:
+  documents:
+  track:

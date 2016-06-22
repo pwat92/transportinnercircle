@@ -14,9 +14,13 @@
     <div class="col-md-3">
       <%# filler %>
     </div>
-
+    
     <div class="col-md-3">
-      <%= button_to @cta1, new_quote_path, class: "cta1", :method => "get" %>
+      <% if I18n.locale == :en %>
+        <%= button_to @cta1, new_quote_path, class: "cta1_en", :method => "get" %>
+      <% else %>
+        <%= button_to @cta1, new_quote_path, class: "cta1_fr", :method => "get" %>
+      <% end %>
     </div>
     <div class="col-md-3">
       <%= button_to @cta2, new_new_driver_path, class: "cta2", :method => "get" %>

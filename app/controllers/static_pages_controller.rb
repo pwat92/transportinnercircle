@@ -1,8 +1,8 @@
 class StaticPagesController < ApplicationController
   def index
-    @cta1 = "Get a quote"
-    @cta2 = "Become a driver"
-    @slogan = "Delivered on time!"
+    @cta1 = I18n.t 'index.cta1'
+    @cta2 = I18n.t 'index.cta2'
+    @slogan = I18n.t 'index.heading'
   end
 
   def track_shipment
