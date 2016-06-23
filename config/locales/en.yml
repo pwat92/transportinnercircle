@@ -52,7 +52,7 @@ en:
   documents:
   track:
     track_shipment: 'Start Tracking now!'
-    heading: 'Now allows track your own flatbed shipment!'
+    heading: 'Now allows you to track your own flatbed shipment!'
     step1: 'Click the button to start tracking'
     step2: 'Enter username and password'
     step3: 'Login in and voila!'
