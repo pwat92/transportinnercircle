@@ -1,4 +1,13 @@
 form{
+  .message{
+    display: block;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 50%;
+  }
   input{
     width: 100%;
     border-radius: 5px;
