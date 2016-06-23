@@ -14,6 +14,7 @@ gem 'rails_admin', '~> 0.8.1'
 gem 'rails-i18n', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'owlcarousel-rails'
+gem 'client_side_validations', '~> 4.2', '>= 4.2.4'
 
 
 group :development, :test do

@@ -7,7 +7,7 @@
 
   <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
-      <%= form_for @new_driver, url: {action: "create"}, html: {class: "form"} do |f| %>
+      <%= form_for @new_driver, validate: true, url: {action: "create"}, html: {class: "form"} do |f| %>
 
         <%= f.label :name, t('new_driver.name') %>
         <%= f.text_field :name %>

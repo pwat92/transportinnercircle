@@ -16,3 +16,4 @@
 //= require_tree .
 //= require owl.carousel
 //= require bootstrap-sprockets
+//= require rails.validations

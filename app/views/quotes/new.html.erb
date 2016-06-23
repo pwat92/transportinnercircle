@@ -7,7 +7,7 @@
 
   <div class="row">
     <div class="col-sm-offset-3 col-sm-6">
-      <%= form_for @quote, url: {action: "create"}, html: {class: "form"} do |f| %>
+      <%= form_for @quote, validate: true, url: {action: "create"}, html: {class: "form"} do |f| %>
         <%= f.label :name, t('quote.name') %>
         <%= f.text_field :name %>
         <%= f.label :email, t('quote.email') %>
