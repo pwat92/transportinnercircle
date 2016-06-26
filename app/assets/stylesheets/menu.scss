@@ -1,14 +1,15 @@
 #footer-container{
-  width: 100%;
-  padding-top: 50px;
-  margin-top: 60px;
   background-color: #22272d;
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  padding: 3px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 
-  .footer {
+  ul.footer {
     list-style-type: none;
-    width: 100%;
-
+    padding: 0px;
+    margin: 0px;
     li{
       padding: 5px;
     }

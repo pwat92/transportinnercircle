@@ -18,19 +18,21 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+html,
 body{
+  height: 100%;
   padding: 0px;
   margin: 0px;
+}
+
+div.main-body{
+  height: 100%;
+  padding-top: 150px;
 }
 
 p.alert{
   position: fixed;
   z-index: 1;
-}
-
-div.main-body{
-  padding-top: 70px;
 }
 // /* Extra small devices (phones, up to 480px) */
 // @media screen and (max-width: 767px) {

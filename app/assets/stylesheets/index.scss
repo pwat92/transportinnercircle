@@ -18,7 +18,6 @@
 }
 
 .slogan{
-  padding-top: 13%;
 
   h1{
     color: white;
@@ -101,6 +100,10 @@
     font-size: 30px;
     text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
   }
+}
+
+.value_props{
+  padding-bottom: 200px;
 }
 /* large desktops and up ----------- */
 @media screen and (max-width: 1300px) {
