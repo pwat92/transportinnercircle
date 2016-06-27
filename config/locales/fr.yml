@@ -1,4 +1,7 @@
 fr:
+  flash_messages:
+    successful_quote: 'Estimation a été demandé avec succès .'
+    successful_application: 'La demande a été soumise avec succès'
   menu:
     about_us: 'À propos de nous'
     documents: 'Documents'

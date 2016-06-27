@@ -102,25 +102,94 @@
   }
 }
 
-.value_props{
-  padding-bottom: 200px;
+/* Extra small devices (phones, up to 480px) */
+@media (min-width: 300px) and (max-width: 720px) {
+  .hero-img{
+    img {
+      max-width: 130%;
+    }
+  }
+  .slogan{
+
+    h1{
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+      width: 100%;
+    }
+
+    h2{
+      color: white;
+      font-size: 10px;
+      text-align: center;
+      text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+      width: 100%;
+    }
+  }
+
+  .call-to-action{
+    padding-top: 2%;
+
+    input {
+      width: 100%;
+      padding: 5px;
+      border-radius: 10px;
+      border-width: 3px;
+    }
+
+    .cta1_en{
+      border-color: #f8c21f;
+      background-color: #f8c21f;
+      font-weight: bold;
+      color: white;
+      font-size: 20px;
+      text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    }
+
+    .cta1_fr{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-color: #f8c21f;
+      background-color: #f8c21f;
+      font-weight: bold;
+      color: white;
+      font-size: 20px;
+      text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    }
+
+    .cta2{
+      border-color: #f8c21f;
+      background-color: transparent;
+      font-weight: bold;
+      color: #f8c21f;
+      font-size: 20px;
+      text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    }
+  }
 }
+
+@media (min-width: 300px) and (max-width: 1299px) {
+  .value-props{
+    margin-top: 30%;
+    margin-bottom: 250px;
+  }
+}
+
 /* large desktops and up ----------- */
 @media screen and (max-width: 1300px) {
   .value-props{
-    margin-top: 20%;
+    margin-top: 50x;
+    margin-bottom: 100px;
   }
 }
-
-@media screen and (min-width: 1301px) {
-  .value-props{
-    margin-top: 40%;
-  }
-}
-
-/* tablets/desktops and up ----------- */
-@media (min-width: 992px) and (max-width: 1299px) {
+/* big screens ----------------------- */
+@media (min-width: 1301px) {
   .value-props{
     margin-top: 30%;
+    margin-bottom: 100px;
   }
 }
+
+
+

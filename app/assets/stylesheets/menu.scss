@@ -1,5 +1,6 @@
 #footer-container{
-  background-color: #22272d;
+  display: hidden;
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   padding: 3px;
@@ -10,11 +11,19 @@
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    li{
+    li a{
       padding: 5px;
+      color: transparent;
+      display: block;
     }
+  }
+}
 
-    a{
+#footer-container:hover{
+  background-color: #22272d;
+
+  ul.footer{
+    li a{
       color: white;
     }
   }
