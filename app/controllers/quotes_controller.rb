@@ -8,7 +8,7 @@ class QuotesController < ApplicationController
 
     respond_to do |format|
       if @quote.save
-        format.html { redirect_to '/', notice: 'Quote was successfully requested.' }
+        format.html { redirect_to '/', notice: I18n.t('flash_messages.successful_quote') }
       else
         format.html { render :new }
       end

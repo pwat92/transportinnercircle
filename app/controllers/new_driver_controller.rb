@@ -8,7 +8,7 @@ class NewDriverController < ApplicationController
 
     respond_to do |format|
       if @new_driver.save
-        format.html { redirect_to '/', notice: 'Application was successfully submitted.' }
+        format.html { redirect_to '/', notice: I18n.t('flash_messages.successful_application') }
       else
         format.html { render :new }
       end
