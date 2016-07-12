@@ -1,1 +1,18 @@
-This page will display legal documents
+<div class="documents">
+  <h1>
+    <%= t('documents.heading') %>
+  </h1>
+  <div class="container">
+    <div class="row">
+      <p><%= t('documents.cta') %></p>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-4">
+        <%= link_to t('documents.button1'), root_path + "carrierpackage.pdf", {target: '_blank'} %>
+      </div>
+      <div class="col-md-4">
+        <%= link_to t('documents.button2'), root_path + "insurance2016.pdf", {target: '_blank'} %>
+      </div>
+    </div>
+  </div>
+</div>

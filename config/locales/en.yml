@@ -19,7 +19,7 @@ en:
     successful_application: 'Application was successfully submitted.'
   menu:
     about_us: 'About us'
-    documents: 'Document'
+    documents: 'Documents'
     photos: 'Photos'
     track_shipment: 'Track Shipments'
     get_a_quote: 'Get a Quote'
@@ -43,7 +43,7 @@ en:
     value3_title: 'On time delivery'
     value3_blurb: 'We do our best to ensure that your shipments get where they need to be, on time! We use new trucking equipment to ensure that there are minimal insidence on long freighting trips. '
   about_us:
-    about_us: 'About Us'
+    about_us: 'About us'
     col1_title: 'What we do'
     col1_body: 'Transport Inner Circle is a premier flatbed transport company. Whatever you need to move you rest assured that it will be safe and secure with us!'
     col2_title: 'Why we do it'
@@ -59,6 +59,10 @@ en:
     disclaimer: 'WARNING: this cannot be edited once you submit it'
   photos:
   documents:
+    cta: 'Click below to view our:'
+    heading: 'Documentation'
+    button1: 'Carrier Package'
+    button2: 'Insurance'
   track:
     track_shipment: 'Start Tracking now!'
     heading: 'Now allows you to track your own flatbed shipment!'
