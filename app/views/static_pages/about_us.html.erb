@@ -1,21 +1,37 @@
-<div class="container">
-  <div class="row">
-    <div class="col-sm-offest-3 col-sm-6">
-      <h1><%= t('about_us.about_us') %></h1>
-    </div>
-  </div>
+<div class="about_us">
+  <div class="container">
+
+    <h1 class="title"><%= t('about_us.about_us') %></h1>
+
     <div class="row">
-    <div class="col-sm-4">
-      <h2><%= t('about_us.col1_title') %></h2>
-      <p><%= t('about_us.col1_body') %></p>
+      <div class="col-xs-offset-2 col-sm-4">
+        <h2><%= t('about_us.col1_title') %></h2>
+        <p><%= t('about_us.col1_body') %></p>
+      </div>
+      <div class="col-xs-4">
+        <%= image_tag("tic7.jpeg") %>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h2><%= t('about_us.col2_title') %></h2>
-      <p><%= t('about_us.col2_body') %></p>
+
+    <div class="row">
+      <div class="col-xs-offset-2 col-sm-4">
+        <%= image_tag("tic6.jpeg") %>
+      </div>
+      <div class="col-xs-4">
+        <h2><%= t('about_us.col2_title') %></h2>
+        <p><%= t('about_us.col2_body') %></p>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h2><%= t('about_us.col3_title') %></h2>
-      <p><%= t('about_us.col3_body') %></p>
+
+    <div class="row">
+      <div class="col-xs-offset-2 col-sm-4">
+        <h2><%= t('about_us.col3_title') %></h2>
+        <p><%= t('about_us.col3_body') %></p>
+      </div>
+      <div class="col-xs-4">
+        <%= image_tag("tic1.jpeg") %>
+      </div>
     </div>
+
   </div>
 </div>

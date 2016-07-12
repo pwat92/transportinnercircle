@@ -1,0 +1,28 @@
+.documents{
+  padding-top: 35px;
+  text-align: center;
+  h1{
+    margin-bottom:70px;
+  }
+  p{
+    margin-bottom: 135px;
+  }
+  a{
+    color: #22272d;
+    font-size: 15px;
+    display: block;
+    background-color: #f8c21f;
+    padding: 20px 0px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 6px;
+  }
+  a:visited{
+    color: #22272d;
+  }
+  a:hover{
+    background-color: #22272d;
+    color: #f8c21f;
+    text-decoration: none;
+  }
+}

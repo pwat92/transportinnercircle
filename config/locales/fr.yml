@@ -41,6 +41,10 @@ fr:
     disclaimer: 'AVERTISSEMENT: cela ne peut pas être modifié après son envoi'
   photos:
   documents:
+    cta: 'Cliquez pour voir nos:'
+    heading: 'Documentation'
+    button1: 'Immatriculation de véhicule commercial'
+    button2: 'Assurance'
   track:
     track_shipment: 'Suivi de Livraison!'
     heading: 'Vous permet maintenant de suivi votre Livraison!'
