@@ -57,7 +57,6 @@ en:
     phone_number: 'Phone Number:'
     submit: 'Submit Application'
     disclaimer: 'WARNING: this cannot be edited once you submit it'
-  photos:
   documents:
     cta: 'Click below to view our:'
     heading: 'Documentation'
