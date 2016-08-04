@@ -21,17 +21,21 @@ fr:
     heading: 'Livrée à Temps'
     cta1: 'Obtenez une estimation'
     cta2: 'Devenir un Pilote'
-    value1_title: 'Satisfaction de la clientèle'
-    value1_blurb: ''
+    value1_title: 'Bonheur des clients'
+    value1_blurb: 'Chez Transport Inner Circle, notre principal objectif est la satisfaction de nos clients. Nous formons nos chauffeurs afin qu’ils soient ponctuels, respectueux et axés sur les détails. Nous travaillons fort pour que vous n’ayez pas de soucis.'
     value2_title: "Tranquilité d'esprit"
-    value2_blurb: ''
+    value2_blurb: 'Notre processus de satisfaction de la clientèle, notre système de localisation GPS 24h/24 et 3 millions de dollars en assurance responsabilité vous permettent de relaxer sans vous soucier de vos.'
     value3_title: 'Livraison à temps'
-    value3_blurb: ''
+    value3_blurb: 'Nous faisons notre possible afin d’assurer que votre cargaison se rende où elle doit se retrouver et à temps! Nous utilisons de l’équipement de camionnage afin de minimiser le risque d’accidents durant les longs voyages d’affrètement.'
   about_us:
     about_us: 'À propos de nous'
-    col1: ''
-    col2: ''
-    col3: ''
+    col1_title: "Qu'est-ce qu'on fait"
+    col1_body: "Transport Inner Circle est une compagnie de [flated transport] de haute gamme. Peu importe ce que vous devez transporter, restez assurés que le transport se fera de manière sécure avec nous!"
+    col2_title: "Pourquoi nous le faisons"
+    col2_body: "Chez Transport Inner Circle, nous croyons que le transport de cargaison devrait être facile. Laissez nos experts prendre soin de la logistique afin que vous puissez vous concentrer sur ce qui importe le plus."
+    col3_title: "Pourquoi nous"
+    col3_body: "Notre processus de satisfaction de la clientèle, notre système de localisation GPS 24h/24 et 3 millions de dollars en assurance responsabilité vous assurent que votre cargaison se rende où elle doit se retrouver et que vous ressortiez satisfaits."
+
   new_driver:
     new_driver: 'Nous Recrutons de Nouveaux Pilotes'
     name: 'Nom:'
