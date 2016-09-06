@@ -32,7 +32,7 @@ en:
     email: 'Email:'
     message: 'Message:'
     submit: 'Request a Quote!'
-    disclaimer: 'WARNING: this cannot be edited once you submit it'
+    disclaimer: 'WARNING: This cannot be edited once you submit it'
   index:
     heading: 'Delivered on time!'
     cta1: 'Get a Quote'
@@ -40,24 +40,24 @@ en:
     value1_title: 'Client satisfaction'
     value1_blurb: "At Transport Inner Circle, our main goal is our customer's satisfaction. We train all our drivers to be punctual, respectful, and pay attention detail. We work hard to make sure you don't have to worry."
     value2_title: 'Piece of mind'
-    value2_blurb: 'Our 100% customer satisfaction process, 24/7 GPS tracking, and 3 million dollars of liability ensurance allow you to sit back, relax and not worry about your flatbed shipments'
+    value2_blurb: 'Our 100% customer satisfaction process, 24/7 GPS tracking, and 3 million dollars of liability ensurance allow you to sit back, relax and not worry about your shipments.'
     value3_title: 'On time delivery'
-    value3_blurb: 'We do our best to ensure that your shipments get where they need to be, on time! We use new trucking equipment to ensure that there are minimal insidence on long freighting trips. '
+    value3_blurb: 'We do our best to ensure that your shipments get where they need to be, on time! And we allow you to watch your shipments via GPS. '
   about_us:
     about_us: 'About us'
     col1_title: 'What we do'
-    col1_body: 'Transport Inner Circle is a premier flatbed transport company. Whatever you need to move you rest assured that it will be safe and secure with us!'
+    col1_body: 'Transport Inner Circle is a flatbed transport company. Whatever you need to move you rest assured that it will be safe and secure with us.'
     col2_title: 'Why we do it'
     col2_body: 'At Transport Inner Circle, we think that shipments should be easy. Let our experts take care of the logistics, so you can get back to what really matters.'
     col3_title: 'Why us'
-    col3_body: 'Our Our 100% customer satisfaction process, 24/7 GPS tracking, and 3 million dollars of liability ensurance, ensure thatyour shipment will get where it needs to be and that you are left smiling'
+    col3_body: 'Our 100% customer satisfaction process, 24/7 GPS tracking, and 3 million dollars of liability ensurance, ensure that your shipment will get where it needs to be.'
   new_driver:
     new_driver: "We're Hiring Drivers"
     name: 'Name:'
     email: 'Email:'
     phone_number: 'Phone Number:'
     submit: 'Submit Application'
-    disclaimer: 'WARNING: this cannot be edited once you submit it'
+    disclaimer: 'WARNING: This cannot be edited once you submit it'
   documents:
     cta: 'Click below to view our:'
     heading: 'Documentation'

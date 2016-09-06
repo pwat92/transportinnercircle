@@ -20,8 +20,8 @@ class StaticPagesController < ApplicationController
   end
 
   def contact_us
-    @address = ""
-    @email = ""
-    @phone_number = ""
+    @address = "123 skdjvn ave."
+    @email = "kasjcan@ajdf.com"
+    @phone_number = "123-123-1234"
   end
 end
