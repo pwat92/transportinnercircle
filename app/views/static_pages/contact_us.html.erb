@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 contact">
+        <h2><%= t('contact.header') %></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 contact yellow-bg"><h3> <%= t('contact.phone') %> </h3></div>
+    <div class="col-md-6 contact"><h3> <%= link_to @phone_number, "tel:#{@phone_number}" %> </h3></div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 contact"><h3> <%= t('contact.email') %> </h3></div>
+    <div class="col-md-6 contact yellow-bg"><h3> <%= mail_to @email %> </h3></div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 contact yellow-bg"><h3> <%= t('contact.address') %> </h3></div>
+    <div class="col-md-6 contact"><h3> <%=link_to @address, @maps_link, :target => :blank %> </h3></div>
+  </div>
+</div>

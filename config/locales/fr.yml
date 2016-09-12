@@ -36,7 +36,6 @@ fr:
     col2_body: "Chez Transport Inner Circle, nous croyons que le transport de cargaison devrait être facile. Laissez nos experts prendre soin de la logistique afin que vous puissez vous concentrer sur ce qui importe le plus."
     col3_title: "Pourquoi nous"
     col3_body: "Notre processus de satisfaction de la clientèle, notre système de localisation GPS 24h/24 et 3 millions de dollars en assurance responsabilité vous assurent que votre cargaison se rende où elle doit se retrouver et que vous ressortiez satisfaits."
-
   new_driver:
     new_driver: 'Nous Recrutons de Nouveaux Pilotes'
     name: 'Nom:'
@@ -56,3 +55,8 @@ fr:
     step1: 'Cliquez sur le bouton pour suivir de Livraison'
     step2: "Entrez le nom d'utilisateur et mot de passe"
     step3: 'Login et voila'
+  contact:
+    header: 'Contactez nous'
+    phone: 'Numero Telephone'
+    email: 'Email'
+    address: 'Addresse'
