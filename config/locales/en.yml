@@ -69,3 +69,8 @@ en:
     step1: 'Click the button to start tracking'
     step2: 'Enter username and password'
     step3: 'Login in and voila!'
+  contact:
+    header: 'Get in touch!'
+    phone: 'Phone Number'
+    email: 'Email'
+    address: 'Address'
