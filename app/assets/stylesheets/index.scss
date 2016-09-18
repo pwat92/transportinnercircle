@@ -13,7 +13,7 @@
     height: auto;
     width: auto\9;
     overflow: hidden;
-    filter: brightness(40%);
+    filter: brightness(50%);
   }
 }
 
@@ -107,6 +107,9 @@
   .hero-img{
     img {
       max-width: 205%;
+      height: 100%;
+      margin-left: -200px;
+      margin-top: 20px;
     }
   }
   .slogan{
