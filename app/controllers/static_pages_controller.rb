@@ -21,7 +21,7 @@ class StaticPagesController < ApplicationController
 
   def contact_us
     @address = "3435 Bergerac, Brossard QC, J4Z 2M4"
-    @email = "jon@transportinnercircle.com"
+    @email = "jonathan@transportinnercircle.ca"
     @phone_number = "514-458-6617"
 
     @maps_link = "http://maps.google.com/?q=#{@address}"
